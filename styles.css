@@ -162,9 +162,33 @@ nav {
     margin-top: 7%;
     font-weight: bold;
 }
+
+.box-img1:hover, .box-img2:hover, .box-img3:hover, .box-img4:hover {
+    color:#d43a2f;
+    font-weight: bold;
+    text-decoration: underline;
+    }
+
 .section3 img {
     width: 150px;
     cursor: pointer;
+}
+
+.img1:hover{
+    width: 150px;
+    content: url(./img/img1-effects.png);
+}
+.img2:hover{
+    width: 150px;
+    content: url(./img/img2-effects.png);
+}
+.img3:hover{
+    width: 150px;
+    content: url(./img/img3-effects.png);
+}
+.img4:hover{
+    width: 150px;
+    content: url(./img/img4-effects.png);
 }
 
 footer {
