@@ -1,10 +1,12 @@
 @import url('https://fonts.cdnfonts.com/css/airstrike');
+
 * {
     box-sizing: border-box;
     margin: 0;
     padding: 0;
-    
+
 }
+
 body {
     font-family: 'Montserrat', sans-serif;
     background-color: #f2f2f2;
@@ -17,7 +19,8 @@ body {
 
 }
 
-.section1 {
+.section1,
+.section4 {
     width: 100vw;
     height: 100vh;
     background-image: url(./img/backgound-topo.png);
@@ -81,6 +84,8 @@ nav {
     margin: 0;
 }
 
+
+
 .menu li a::after {
     content: '';
     position: absolute;
@@ -98,6 +103,7 @@ nav {
     visibility: visible;
     transform: scaleX(1);
 }
+
 
 .section1 h4 {
     color: #fff;
@@ -129,6 +135,7 @@ nav {
     margin-left: 100px;
     font-family: 'Montserrat', sans-serif;
 }
+
 #link-more {
     display: inline-block;
     border-radius: 30px;
@@ -141,6 +148,7 @@ nav {
     align-items: center;
     color: #FFFFFF;
 }
+
 .section3 {
     background-color: #FFFFFF;
 }
@@ -154,7 +162,11 @@ nav {
     padding-top: 3%;
     font-size: 36px;
 }
-.box-img1, .box-img2, .box-img3, .box-img4 {
+
+.box-img1,
+.box-img2,
+.box-img3,
+.box-img4 {
     display: inline-block;
     padding: 0;
     margin-left: auto;
@@ -163,30 +175,36 @@ nav {
     font-weight: bold;
 }
 
-.box-img1:hover, .box-img2:hover, .box-img3:hover, .box-img4:hover {
-    color:#d43a2f;
+.box-img1:hover,
+.box-img2:hover,
+.box-img3:hover,
+.box-img4:hover {
+    color: #d43a2f;
     font-weight: bold;
     text-decoration: underline;
-    }
+}
 
 .section3 img {
     width: 150px;
     cursor: pointer;
 }
 
-.img1:hover{
+.img1:hover {
     width: 150px;
     content: url(./img/img1-effects.png);
 }
-.img2:hover{
+
+.img2:hover {
     width: 150px;
     content: url(./img/img2-effects.png);
 }
-.img3:hover{
+
+.img3:hover {
     width: 150px;
     content: url(./img/img3-effects.png);
 }
-.img4:hover{
+
+.img4:hover {
     width: 150px;
     content: url(./img/img4-effects.png);
 }
@@ -196,11 +214,18 @@ footer {
     background-color: black;
     display: block;
     text-align: center;
+    border-bottom: 1px solid #FFFFFF;
+
 }
+
 .box-rodape {
     display: block;
+
 }
-.links, .contact, .time {
+
+.links,
+.contact,
+.time {
     float: left;
     width: 33.3%;
     padding-top: 20px;
@@ -208,27 +233,64 @@ footer {
     line-height: 1.5;
 }
 
-.contact h2, .time h2{
+.contact h2,
+.time h2 {
     border-bottom: 1px;
     font-weight: bold;
-
+    font-size: 20px;
 }
-.logo-redes{
+
+
+
+.logo-redes {
     background-color: #d43a2f;
     width: 40px;
     padding: 5px;
     border-radius: 30px;
     margin: 5px;
+    cursor: pointer;
 }
-.logo-rodape{
+
+.logo-rodape {
     width: 150px;
 }
 
 .direitos {
     width: 100%;
     background-color: black;
-    border-top: 1px solid #FFFFFF;
+  
     padding: 20px;
-   
+
     color: #FFFFFF;
+}
+
+/**************************************PAGINA SOBRE********************************************/
+
+.section4{
+    height: auto;
+    
+}
+.box-sobre {
+     width: 80vw;
+     padding: 10% 0.5%;
+     display: block;
+    margin: auto;
+    padding-top: 10%;
+
+   }
+.sobre-conteudo{
+    background-color: rgba(61, 79, 136, 0.4);
+    padding: 20px;
+    border-radius: 30px;
+}
+.box-sobre h2{
+    color: #FFFFFF;
+    text-align: center;
+    padding: 20px;
+}
+.box-sobre p{
+    color: #FFFFFF;
+    text-align: justify;
+    text-indent: 50px;
+    line-height: 1.3;
 }
