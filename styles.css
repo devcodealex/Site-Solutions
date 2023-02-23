@@ -148,7 +148,22 @@ nav {
     align-items: center;
     color: #FFFFFF;
 }
+.link-whats{
+    position: fixed;
+    right: 1.5%;
+    top: 88%;
+    width: 50px;
+    float: right;
+    border-radius: 30px;
+    background-color: #42d42f;
+    padding: 3px;
+    
+}
 
+.link-whats:hover{
+    content: url(./img/logo-whats.png);
+    width: 160px;
+    }
 .section3 {
     background-color: #FFFFFF;
 }
